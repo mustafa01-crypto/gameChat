@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">gameChat</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="sign_up">sign up</string>
+    <string name="user_name">user name</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_to_game_chat">Welcome to GAME CHAT</string>
+    <string name="giri_yap">giriş yap</string>
+    <string name="guncelle">güncelle</string>
+    <string name="kullanici_adi">Kullanıcı adı</string>
+    <string name="parola">parola</string>
+    <string name="kay_t_ol">kayıt ol</string>
+    <string name="profil">Profil</string>
+    <string name="k_yap">Çıkış Yap</string>
+</resources>

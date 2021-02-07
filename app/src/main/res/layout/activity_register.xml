@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/sign_image"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/login_photo"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:scaleType="fitCenter">
+            </ImageView>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sign_image"
+                android:layout_alignParentStart="true"
+                android:id="@+id/sign_nickname"
+                android:padding="4dp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/kullanici_adi"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:drawableStart="@drawable/edit_status"
+                tools:ignore="HardcodedText">
+            </EditText>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sign_nickname"
+                android:layout_alignParentStart="true"
+                android:id="@+id/sign_email"
+                android:padding="4dp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:drawableStart="@drawable/email">
+            </EditText>
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/sign_email"
+                android:layout_alignParentStart="true"
+                android:id="@+id/sign_password"
+                android:padding="4dp"
+                android:inputType="textPassword"
+                android:hint="@string/parola"
+                android:background="@drawable/inputs"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="17dp"
+                android:layout_marginRight="17dp"
+                android:drawableStart="@drawable/password">
+            </EditText>
+
+
+            <android.widget.Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/sign_up_button"
+                android:layout_below="@+id/sign_password"
+                android:padding="4dp"
+                android:onClick="signUp"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="19dp"
+                android:layout_marginRight="19dp"
+                android:text="@string/kay_t_ol"
+                android:textSize="24sp"
+                android:textColor="@android:color/background_light"
+                android:background="@color/colorPrimary">
+            </android.widget.Button>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

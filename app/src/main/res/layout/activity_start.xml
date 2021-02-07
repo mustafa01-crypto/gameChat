@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <TextView
+        android:id="@+id/tittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/welcome_to_game_chat"
+        android:layout_marginTop="50dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/inputs"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_start"
+        android:layout_below="@+id/tittle"
+        android:padding="4dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:text="@string/giri_yap"
+        android:onClick="signToRegister"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary">
+    </android.widget.Button>
+    <android.widget.Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/signUp_start"
+        android:layout_below="@+id/login_start"
+        android:padding="4dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:text="@string/kay_t_ol"
+        android:onClick="signToLogin"
+        android:textSize="24sp"
+        android:textColor="@android:color/background_light"
+        android:background="@color/colorPrimary">
+    </android.widget.Button>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/signup_photo"
+        android:layout_below="@id/signUp_start"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>

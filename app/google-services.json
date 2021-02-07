@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "127234193097",
+    "firebase_url": "https://chatapplication-f0f66.firebaseio.com",
+    "project_id": "chatapplication-f0f66",
+    "storage_bucket": "chatapplication-f0f66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127234193097:android:d1254388b2567101d4bf18",
+        "android_client_info": {
+          "package_name": "com.chat.gamechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127234193097-g3h4kc93pe6t3cmtt4sfd7fpt39vlnka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chat.gamechat",
+            "certificate_hash": "bf7326c9a36e326511220a780394790405451c18"
+          }
+        },
+        {
+          "client_id": "127234193097-pof0raln6juvq19mqmv59enhagbs42h9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC07CxKbs8JGhDxb2PUMppQLijlUVo6Uqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127234193097-pof0raln6juvq19mqmv59enhagbs42h9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
